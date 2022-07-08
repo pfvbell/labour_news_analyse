@@ -4,7 +4,6 @@ import numpy as np
 
 # Broadcast/ News libraries
 from youtube_transcript_api import YouTubeTranscriptApi
-from newsapi import NewsApiClient
 
 #### User puts in youtube link, downloads video and then transcribes? ####
 ### Use this library: https://pypi.org/project/youtube-transcript-api/ ###

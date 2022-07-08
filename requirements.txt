@@ -2,4 +2,3 @@ streamlit
 pandas
 numpy
 youtube_transcript_api
-newsapi
