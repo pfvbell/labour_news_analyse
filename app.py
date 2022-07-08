@@ -68,7 +68,7 @@ else:
                 if text_output == 'Full Transcript':
                     for sentence in text_chunks:
                         st.text(sentence)
-                elif text_output == 'Sentences with Labour': # Get 3 chunk sequence containing 'labour'
+                elif text_output == 'Labour Mentions': # Get 3 chunk sequence containing 'labour'
                     labour_indices = [i for i, s in enumerate(text_chunks) if 'labour' in s]
                     for i, text in enumerate(text_chunks):
                         if i in labour_indices:
